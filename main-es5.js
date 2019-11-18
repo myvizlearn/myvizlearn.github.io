@@ -486,7 +486,7 @@ __webpack_require__.r(__webpack_exports__);
 var routes = [
     {
         path: '',
-        redirectTo: 'home',
+        redirectTo: 'login',
         pathMatch: 'full'
     },
     {
@@ -578,11 +578,11 @@ var AppComponent = /** @class */ (function () {
                 url: '/create-concept-map',
                 icon: 'create'
             },
-            {
-                title: 'Edit Concept Map',
-                url: '/edit-concept-map',
-                icon: 'pricetag'
-            },
+            // {
+            //   title: 'Edit Concept Map',
+            //   url: '/edit-concept-map',
+            //   icon: 'pricetag'
+            // },
             // {
             //   title: 'Concept Map',
             //   url: '/sample',

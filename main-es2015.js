@@ -480,7 +480,7 @@ __webpack_require__.r(__webpack_exports__);
 const routes = [
     {
         path: '',
-        redirectTo: 'home',
+        redirectTo: 'login',
         pathMatch: 'full'
     },
     {
@@ -569,11 +569,11 @@ let AppComponent = class AppComponent {
                 url: '/create-concept-map',
                 icon: 'create'
             },
-            {
-                title: 'Edit Concept Map',
-                url: '/edit-concept-map',
-                icon: 'pricetag'
-            },
+            // {
+            //   title: 'Edit Concept Map',
+            //   url: '/edit-concept-map',
+            //   icon: 'pricetag'
+            // },
             // {
             //   title: 'Concept Map',
             //   url: '/sample',
